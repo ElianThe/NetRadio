@@ -1,21 +1,26 @@
-
-    section .aside-compte {
-        float: left;
-        height: 100vh;
-        width: 35%;
-        background-color: $lightBlack;
-        color: $white;
-        position: relative;
-        text-align: center;
-        padding-top: 5vh;
-
-            h3{
-                padding-top: 5vh;
-                padding-bottom: 5vh;
-            }
-
-    }
-    
+main {
+    height: 100vh;
   
+    .aside-compte {
+      float: left;
+      height: 100vh;
+      width: 25%;
+      background-color: $lightBlack;
+      color: $white;
+      position: relative;
+      text-align: center;
+      padding-top: 5vh;
+  
+      h3 {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+      }
+    }
+  }
 
+  @media (max-width: 800px) {
+    .aside-compte {
+      display: none;
+    }
+  }
   

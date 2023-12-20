@@ -520,4 +520,99 @@ p {
   font-size: inherit;
   color: inherit;
   font-weight: 500;
+}
+.podcasts-emission .episode-infos-plus {
+  margin-top: 0.8em;
+  display: none;
+}
+.podcasts-emission .episode-infos-plus p {
+  margin-top: 0.5em;
+}
+.podcasts-emission .episode-infos-plus .date {
+  font-size: inherit;
+  color: inherit;
+  font-weight: 200;
+}
+
+@media screen and (min-width: 700px) {
+  .podcasts-emission, .si-direct {
+    padding: 1.5em;
+  }
+  .si-direct-titre h2 {
+    font-size: 2.3em;
+    color: inherit;
+    font-weight: bold;
+  }
+  .si-direct-titre embed {
+    height: 1.5em;
+  }
+  .si-direct-infos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 1em;
+    align-items: center;
+  }
+  .si-direct-infos embed {
+    width: 25vw;
+  }
+  .si-direct-infos-texte {
+    font-size: 1.1em;
+  }
+  .si-direct-infos-texte h3 {
+    margin: 0 0 0.2em;
+    font-size: 1.5em;
+    color: inherit;
+    font-weight: 600;
+  }
+  .podcasts-emission h2 {
+    font-size: 2.3em;
+    color: inherit;
+    font-weight: bold;
+  }
+  .podcasts-emission .episodes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22em, 1fr));
+    grid-template-rows: auto;
+    gap: 1em;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .podcasts-emission .episodes .episode {
+    margin: 0;
+  }
+  .podcasts-emission .episodes .episode embed:hover {
+    cursor: pointer;
+  }
+  .podcasts-emission .episodes .episode-infos {
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 0.2em;
+    align-items: center;
+  }
+  .podcasts-emission .episodes .episode-infos div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 1em;
+    align-items: center;
+  }
+  .podcasts-emission .episodes .episode-infos-plus {
+    font-size: 1em;
+    display: none;
+    margin-top: 0.8em;
+  }
+  .podcasts-emission .episodes .episode-infos-plus p {
+    margin-top: 0.5em;
+  }
+  .podcasts-emission .episodes .episode-infos-plus .date {
+    font-size: inherit;
+    color: inherit;
+    font-weight: 200;
+  }
 }/*# sourceMappingURL=presentation-emission.css.map */
