@@ -17,4 +17,10 @@ main {
       }
     }
   }
+
+  @media (max-width: 800px) {
+    .aside-compte {
+      display: none;
+    }
+  }
   

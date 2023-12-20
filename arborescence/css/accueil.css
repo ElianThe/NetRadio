@@ -400,6 +400,11 @@ main .aside-compte h3 {
   padding-bottom: 5vh;
 }
 
+@media (max-width: 800px) {
+  .aside-compte {
+    display: none;
+  }
+}
 p {
   margin: 0;
 }
