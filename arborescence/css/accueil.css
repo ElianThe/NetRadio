@@ -104,7 +104,10 @@ p {
 }
 footer {
   background-color: #3B3D3F;
-  padding: 20px 0;
+  padding: 20px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }
 footer .copyright {
   text-align: center;
@@ -371,7 +374,10 @@ i:hover {
 }
 footer {
   background-color: #3B3D3F;
-  padding: 20px 0;
+  padding: 20px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }
 footer .copyright {
   text-align: center;
@@ -387,8 +393,9 @@ main {
 }
 main .aside-compte {
   float: left;
-  height: 100vh;
+  height: 130vh;
   width: 25%;
+  margin-right: 2rem;
   background-color: #3B3D3F;
   color: #FFF;
   position: relative;
@@ -409,13 +416,19 @@ p {
   margin: 0;
 }
 
-.podcasts-liste, .emissions-liste {
+.podcasts-liste, .emissions-liste, .podcasts-liste-user, .emissions-liste-user {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   gap: 1em;
   justify-content: center;
   align-items: center;
+}
+
+.podcasts-liste-user, .emissions-liste-user {
+  background-color: #c5c5c5;
+  padding: 2rem;
+  border-radius: 10px;
 }
 
 .podcast {
